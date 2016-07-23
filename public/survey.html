@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src='https://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+
+</head>
+
+<body>
+
+	<div class="container" id="surveyPage">
+					<h1>Survey Online</h1>
+					<hr>
+		</div>
+
+		<form id="survey">
+			<div class="row">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-sm-offset-1">
+					<h2>About You</h2>
+					<h4>Name (required)</h4>
+					<fieldset id="name" class="form-group">
+						<input class="form-control" type="text" name="name">
+					</fieldset>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-sm-offset-1">
+					<h4>Link to photo image (required)</h4>
+					<fieldset id="photo" class="form-group">
+						<input class="form-control" type="text" name="photo">
+					</fieldset>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">				<h4> Question 1: Do you like dogs? </h4>
+                         <select id="q1" name="q1" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 2: Are you an extroverted person? </h4>
+                         <select id="q2" name="q2" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 3: Do you enjoy watching sports? </h4>
+                         <select id="q3" name="q3" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 4: Do you enjoy drinking on the weekends? </h4>
+                         <select id="q4" name="q4" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 5: Would you consider yourself creative? </h4>
+                         <select id="q5" name="q5" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 6: How organized are you? </h4>
+                         <select id="q6" name="q6" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 7: Do you listen to music often? </h4>
+                         <select id="q7" name="q7" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 8: Do you like spending time alone? </h4>
+                         <select id="q8" name="q8" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 9: Do you consider yourself spontaneous? </h4>
+                         <select id="q9" name="q9" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+
+			<div class="row">
+				<div class="col-xs-11 col-sm-11 col-md-11 col-sm-offset-1">		<h4> Question 10: How good are you at coding? </h4>
+                         <select id="q10" name="q10" required>
+                         <option disabled selected value> Select an Option</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                         </select>
+</div></div><br>
+			<div class="row">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-sm-offset-1">
+					<button id="surveyButton" type="submit" class="btn btn-primary form-control" data-toggle="modal" data-target="#myModal">Submit</button>
+					<div id="errors">
+					<!-- Error messages go here -->
+					</div></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel"><!--Message--></h4>
+	      </div>
+	      <div class="modal-body" id="friend-info">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  <script type="text/javascript">
+    $('#surveyButton').on("click", function() {
+  			var user = {
+  				name: $('#name').val(),
+  				photo: $('#photo').val(),
+  				scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(),$("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+  			}
+  			$.post(currentURL + "/api/friends", user,
+	    		function(data){
+    			$('#name').val("");
+				$('#photo').val("");
+				$('#scores').val("");
+	    });
+  </script>
+
+	<div id="footer" class="text-center">
+	<br>
+	<br>
+		<p>Navin Udiaver | UT Austin Coding Bootcamp.</p>
+	</div>
+</body>
+</html>
