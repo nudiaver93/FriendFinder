@@ -1,1 +1,16 @@
-{}
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "Full stack website that compares the characteristics of two individuals in order to evaluate compatibility.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Navin Udiaver",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.0",
+    "path": "^1.0.0"
+  }
+}
